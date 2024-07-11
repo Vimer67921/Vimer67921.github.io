@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Water Tracker</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#" onclick="openServices()">Услуги</a></li>
+          <li><a href="#" onclick="openSubscription()">Подписка</a></li>
+          <li><a href="#" onclick="openAdvice()">Советы</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1 style="color: black;">Ваш личный помощник в гидратации</h1>
+          <p style="color: black;">Отслеживайте потребление воды и достигайте своих целей по водному балансу.</p>
+          <button class="cta-button">Начать сейчас</button>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="feature-item">
+          <i class="fas fa-chart-line"></i>
+          <h3>Отслеживание потребления</h3>
+          <p>Легко отмечайте каждый выпитый стакан и следите за своим прогрессом.</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-bell"></i>
+          <h3>Персональные напоминания</h3>
+          <p>Настраивайте напоминания, чтобы не забывать пить воду регулярно.</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-trophy"></i>
+          <h3>Достижение целей</h3>
+          <p>Ставьте цели по водному балансу и получайте награды за их выполнение.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Water Tracker. Все права защищены.</p>
+    </footer>
+
+    <script>
+      function openServices() {
+        window.open("services.html", "_blank");
+      }
+
+      function openSubscription() {
+        window.open("subscription.html", "_blank");
+      }
+
+      function openAdvice() {
+        window.open("advice.html", "_blank");
+      }
+    </script>
+  </body>
+</html>
